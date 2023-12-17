@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (irpublisher) JobQueued: {'identifier': 'irpublisher', 'dependencies': OrderedDict()}
+[0.000000] (sphero) JobQueued: {'identifier': 'sphero', 'dependencies': OrderedDict()}
+[0.000000] (test1) JobQueued: {'identifier': 'test1', 'dependencies': OrderedDict()}
+[0.000000] (irpublisher) JobStarted: {'identifier': 'irpublisher'}
+[0.110000] (-) TimerEvent: {}
+[0.204000] (sphero) JobStarted: {'identifier': 'sphero'}
+[0.219000] (-) TimerEvent: {}
+[0.329000] (-) TimerEvent: {}
+[0.438000] (-) TimerEvent: {}
+[0.469000] (test1) JobStarted: {'identifier': 'test1'}
+[0.547000] (-) TimerEvent: {}
+[0.657000] (-) TimerEvent: {}
+[0.766000] (-) TimerEvent: {}
+[0.875000] (-) TimerEvent: {}
+[0.985000] (-) TimerEvent: {}
+[1.094000] (-) TimerEvent: {}
+[1.204000] (-) TimerEvent: {}
+[1.313000] (-) TimerEvent: {}
+[1.422000] (-) TimerEvent: {}
+[1.532000] (-) TimerEvent: {}
+[1.641000] (-) TimerEvent: {}
+[1.750000] (-) TimerEvent: {}
+[1.860000] (-) TimerEvent: {}
+[1.969000] (-) TimerEvent: {}
+[2.079000] (-) TimerEvent: {}
+[2.188000] (-) TimerEvent: {}
+[2.297000] (-) TimerEvent: {}
+[2.407000] (-) TimerEvent: {}
+[2.516000] (-) TimerEvent: {}
+[2.625000] (-) TimerEvent: {}
+[2.657000] (irpublisher) Command: {'cmd': ['c:\\python38\\python.exe', 'setup.py', 'egg_info', '--egg-base', '..\\..\\..\\build\\irpublisher', 'build', '--build-base', 'C:\\mmi_ws\\ros2_ws\\build\\irpublisher\\build', 'install', '--record', 'C:\\mmi_ws\\ros2_ws\\build\\irpublisher\\install.log', '--single-version-externally-managed'], 'cwd': 'C:\\mmi_ws\\ros2_ws\\src\\irpublisher\\irpublisher', 'env': {'OneDriveConsumer': 'C:\\Users\\tanma\\OneDrive', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'USERNAME': 'tanma', 'ProgramW6432': 'C:\\Program Files', 'windir': 'C:\\WINDOWS', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 183 Stepping 1, GenuineIntel', 'TMP': 'C:\\Users\\tanma\\AppData\\Local\\Temp', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'Path': 'C:\\dev\\ros2_iron\\opt\\yaml_cpp_vendor\\bin;C:\\dev\\ros2_iron\\opt\\rviz_ogre_vendor\\bin;C:\\dev\\ros2_iron\\opt\\rviz_assimp_vendor\\bin;C:\\dev\\ros2_iron\\opt\\libcurl_vendor\\bin;C:\\dev\\ros2_iron\\Scripts;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\libxml2-2.9.3-win32-x86_64;C:\\xmllint;C:\\Program Files\\Graphviz\\bin;C:\\dev\\ros2_iron\\bin;C:\\Users\\tanma\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\tanma\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'USERDOMAIN_ROAMINGPROFILE': 'LAPTOP_TANMAY', 'PROCESSOR_REVISION': 'b701', 'ChocolateyLastPathUpdate': '133469319656981943', 'USERPROFILE': 'C:\\Users\\tanma', 'PKG_CONFIG_PATH': 'C:\\dev\\ros2_iron\\lib\\pkgconfig;', 'LOGONSERVER': '\\\\LAPTOP_TANMAY', 'TEMP': 'C:\\Users\\tanma\\AppData\\Local\\Temp', 'AMENT_PREFIX_PATH': 'C:\\mmi_ws\\ros2_ws\\install\\test1;C:\\mmi_ws\\ros2_ws\\install\\sphero;C:\\mmi_ws\\ros2_ws\\install\\irpublisher;C:\\dev\\ros2_iron;', 'ROS_PYTHON_VERSION': '3', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'ROS_VERSION': '2', 'OneDrive': 'C:\\Users\\tanma\\OneDrive', 'LOCALAPPDATA': 'C:\\Users\\tanma\\AppData\\Local', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'ZES_ENABLE_SYSMAN': '1', 'ProgramData': 'C:\\ProgramData', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'HOMEPATH': '\\Users\\tanma', 'COLCON': '1', 'IGCCSVC_DB': 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4135x/o2PkSCDI/BLIN6UwQAAAACAAAAAAAQZgAAAAEAACAAAACXnPRltcRuIW8cX9vV+pgpW3NBFmd0kRHge+17+JRdoQAAAAAOgAAAAAIAACAAAAAzrciuxeFgGhQJhSGYfoXfWTqnaNsVPv5DMM9Zhw2ugmAAAADDksKkoktkTMVwsfvdIyYQCpfTBYz3KgBx2BDFAKqZQ6Kmzt7KmMBCLRKXoEtj1Apk4t/F1L7ihSco24WICyZ0Adiro+GrH0oB27osRfpIQ2rFx9YyCgq7MWpiEhB72y5AAAAAWZIsFjWCOo84shUMoQ2UG4ctG98udHh4+sGBa6Meobiw/B9eFJEzmjY0m6Hdmn5ywcObeKWRH4Lw9hYZHEVZLg==', 'COMPUTERNAME': 'LAPTOP_TANMAY', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'ROS_DISTRO': 'iron', 'CMAKE_PREFIX_PATH': 'C:\\dev\\ros2_iron;', 'PYTHONPATH': 'C:\\mmi_ws\\ros2_ws\\build\\irpublisher\\prefix_override;C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\test1\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\Lib\\site-packages;C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\dev\\ros2_iron\\Lib\\site-packages;', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'HOMEDRIVE': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'SystemDrive': 'C:', 'NUMBER_OF_PROCESSORS': '20', 'OS': 'Windows_NT', 'ProgramFiles': 'C:\\Program Files', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL', 'PSModulePath': 'C:\\Users\\tanma\\OneDrive\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'APPDATA': 'C:\\Users\\tanma\\AppData\\Roaming', 'USERDOMAIN': 'LAPTOP_TANMAY', 'PROCESSOR_LEVEL': '6', 'OpenCV_DIR': 'C:\\opencv', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'PUBLIC': 'C:\\Users\\Public'}, 'shell': False}
+[2.672000] (sphero) Command: {'cmd': ['c:\\python38\\python.exe', 'setup.py', 'egg_info', '--egg-base', '..\\..\\build\\sphero', 'build', '--build-base', 'C:\\mmi_ws\\ros2_ws\\build\\sphero\\build', 'install', '--record', 'C:\\mmi_ws\\ros2_ws\\build\\sphero\\install.log', '--single-version-externally-managed'], 'cwd': 'C:\\mmi_ws\\ros2_ws\\src\\sphero', 'env': {'OneDriveConsumer': 'C:\\Users\\tanma\\OneDrive', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'USERNAME': 'tanma', 'ProgramW6432': 'C:\\Program Files', 'windir': 'C:\\WINDOWS', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 183 Stepping 1, GenuineIntel', 'TMP': 'C:\\Users\\tanma\\AppData\\Local\\Temp', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'Path': 'C:\\dev\\ros2_iron\\opt\\yaml_cpp_vendor\\bin;C:\\dev\\ros2_iron\\opt\\rviz_ogre_vendor\\bin;C:\\dev\\ros2_iron\\opt\\rviz_assimp_vendor\\bin;C:\\dev\\ros2_iron\\opt\\libcurl_vendor\\bin;C:\\dev\\ros2_iron\\Scripts;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\libxml2-2.9.3-win32-x86_64;C:\\xmllint;C:\\Program Files\\Graphviz\\bin;C:\\dev\\ros2_iron\\bin;C:\\Users\\tanma\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\tanma\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'USERDOMAIN_ROAMINGPROFILE': 'LAPTOP_TANMAY', 'PROCESSOR_REVISION': 'b701', 'ChocolateyLastPathUpdate': '133469319656981943', 'USERPROFILE': 'C:\\Users\\tanma', 'PKG_CONFIG_PATH': 'C:\\dev\\ros2_iron\\lib\\pkgconfig;', 'LOGONSERVER': '\\\\LAPTOP_TANMAY', 'TEMP': 'C:\\Users\\tanma\\AppData\\Local\\Temp', 'AMENT_PREFIX_PATH': 'C:\\mmi_ws\\ros2_ws\\install\\test1;C:\\mmi_ws\\ros2_ws\\install\\sphero;C:\\mmi_ws\\ros2_ws\\install\\irpublisher;C:\\dev\\ros2_iron;', 'ROS_PYTHON_VERSION': '3', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'ROS_VERSION': '2', 'OneDrive': 'C:\\Users\\tanma\\OneDrive', 'LOCALAPPDATA': 'C:\\Users\\tanma\\AppData\\Local', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'ZES_ENABLE_SYSMAN': '1', 'ProgramData': 'C:\\ProgramData', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'HOMEPATH': '\\Users\\tanma', 'COLCON': '1', 'IGCCSVC_DB': 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4135x/o2PkSCDI/BLIN6UwQAAAACAAAAAAAQZgAAAAEAACAAAACXnPRltcRuIW8cX9vV+pgpW3NBFmd0kRHge+17+JRdoQAAAAAOgAAAAAIAACAAAAAzrciuxeFgGhQJhSGYfoXfWTqnaNsVPv5DMM9Zhw2ugmAAAADDksKkoktkTMVwsfvdIyYQCpfTBYz3KgBx2BDFAKqZQ6Kmzt7KmMBCLRKXoEtj1Apk4t/F1L7ihSco24WICyZ0Adiro+GrH0oB27osRfpIQ2rFx9YyCgq7MWpiEhB72y5AAAAAWZIsFjWCOo84shUMoQ2UG4ctG98udHh4+sGBa6Meobiw/B9eFJEzmjY0m6Hdmn5ywcObeKWRH4Lw9hYZHEVZLg==', 'COMPUTERNAME': 'LAPTOP_TANMAY', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'ROS_DISTRO': 'iron', 'CMAKE_PREFIX_PATH': 'C:\\dev\\ros2_iron;', 'PYTHONPATH': 'C:\\mmi_ws\\ros2_ws\\build\\sphero\\prefix_override;C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\test1\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\Lib\\site-packages;C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\dev\\ros2_iron\\Lib\\site-packages;', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'HOMEDRIVE': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'SystemDrive': 'C:', 'NUMBER_OF_PROCESSORS': '20', 'OS': 'Windows_NT', 'ProgramFiles': 'C:\\Program Files', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL', 'PSModulePath': 'C:\\Users\\tanma\\OneDrive\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'APPDATA': 'C:\\Users\\tanma\\AppData\\Roaming', 'USERDOMAIN': 'LAPTOP_TANMAY', 'PROCESSOR_LEVEL': '6', 'OpenCV_DIR': 'C:\\opencv', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'PUBLIC': 'C:\\Users\\Public'}, 'shell': False}
+[2.735000] (-) TimerEvent: {}
+[2.844000] (-) TimerEvent: {}
+[2.875000] (test1) Command: {'cmd': ['c:\\python38\\python.exe', 'setup.py', 'egg_info', '--egg-base', '..\\..\\build\\test1', 'build', '--build-base', 'C:\\mmi_ws\\ros2_ws\\build\\test1\\build', 'install', '--record', 'C:\\mmi_ws\\ros2_ws\\build\\test1\\install.log', '--single-version-externally-managed'], 'cwd': 'C:\\mmi_ws\\ros2_ws\\src\\test1', 'env': {'OneDriveConsumer': 'C:\\Users\\tanma\\OneDrive', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'USERNAME': 'tanma', 'ProgramW6432': 'C:\\Program Files', 'windir': 'C:\\WINDOWS', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 183 Stepping 1, GenuineIntel', 'TMP': 'C:\\Users\\tanma\\AppData\\Local\\Temp', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'Path': 'C:\\dev\\ros2_iron\\opt\\yaml_cpp_vendor\\bin;C:\\dev\\ros2_iron\\opt\\rviz_ogre_vendor\\bin;C:\\dev\\ros2_iron\\opt\\rviz_assimp_vendor\\bin;C:\\dev\\ros2_iron\\opt\\libcurl_vendor\\bin;C:\\dev\\ros2_iron\\Scripts;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\libxml2-2.9.3-win32-x86_64;C:\\xmllint;C:\\Program Files\\Graphviz\\bin;C:\\dev\\ros2_iron\\bin;C:\\Users\\tanma\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\tanma\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'USERDOMAIN_ROAMINGPROFILE': 'LAPTOP_TANMAY', 'PROCESSOR_REVISION': 'b701', 'ChocolateyLastPathUpdate': '133469319656981943', 'USERPROFILE': 'C:\\Users\\tanma', 'PKG_CONFIG_PATH': 'C:\\dev\\ros2_iron\\lib\\pkgconfig;', 'LOGONSERVER': '\\\\LAPTOP_TANMAY', 'TEMP': 'C:\\Users\\tanma\\AppData\\Local\\Temp', 'AMENT_PREFIX_PATH': 'C:\\mmi_ws\\ros2_ws\\install\\test1;C:\\mmi_ws\\ros2_ws\\install\\sphero;C:\\mmi_ws\\ros2_ws\\install\\irpublisher;C:\\dev\\ros2_iron;', 'ROS_PYTHON_VERSION': '3', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'ROS_VERSION': '2', 'OneDrive': 'C:\\Users\\tanma\\OneDrive', 'LOCALAPPDATA': 'C:\\Users\\tanma\\AppData\\Local', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'ZES_ENABLE_SYSMAN': '1', 'ProgramData': 'C:\\ProgramData', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'HOMEPATH': '\\Users\\tanma', 'COLCON': '1', 'IGCCSVC_DB': 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4135x/o2PkSCDI/BLIN6UwQAAAACAAAAAAAQZgAAAAEAACAAAACXnPRltcRuIW8cX9vV+pgpW3NBFmd0kRHge+17+JRdoQAAAAAOgAAAAAIAACAAAAAzrciuxeFgGhQJhSGYfoXfWTqnaNsVPv5DMM9Zhw2ugmAAAADDksKkoktkTMVwsfvdIyYQCpfTBYz3KgBx2BDFAKqZQ6Kmzt7KmMBCLRKXoEtj1Apk4t/F1L7ihSco24WICyZ0Adiro+GrH0oB27osRfpIQ2rFx9YyCgq7MWpiEhB72y5AAAAAWZIsFjWCOo84shUMoQ2UG4ctG98udHh4+sGBa6Meobiw/B9eFJEzmjY0m6Hdmn5ywcObeKWRH4Lw9hYZHEVZLg==', 'COMPUTERNAME': 'LAPTOP_TANMAY', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'ROS_DISTRO': 'iron', 'CMAKE_PREFIX_PATH': 'C:\\dev\\ros2_iron;', 'PYTHONPATH': 'C:\\mmi_ws\\ros2_ws\\build\\test1\\prefix_override;C:\\mmi_ws\\ros2_ws\\install\\test1\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\test1\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages;C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\Lib\\site-packages;C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\dev\\ros2_iron\\Lib\\site-packages;', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'HOMEDRIVE': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'SystemDrive': 'C:', 'NUMBER_OF_PROCESSORS': '20', 'OS': 'Windows_NT', 'ProgramFiles': 'C:\\Program Files', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL', 'PSModulePath': 'C:\\Users\\tanma\\OneDrive\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'APPDATA': 'C:\\Users\\tanma\\AppData\\Roaming', 'USERDOMAIN': 'LAPTOP_TANMAY', 'PROCESSOR_LEVEL': '6', 'OpenCV_DIR': 'C:\\opencv', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'PUBLIC': 'C:\\Users\\Public'}, 'shell': False}
+[2.954000] (-) TimerEvent: {}
+[2.985000] (irpublisher) StdoutLine: {'line': b'running egg_info\r\n'}
+[2.985000] (irpublisher) StdoutLine: {'line': b'writing ..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\PKG-INFO\r\n'}
+[2.985000] (irpublisher) StdoutLine: {'line': b'writing dependency_links to ..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\dependency_links.txt\r\n'}
+[2.985000] (irpublisher) StdoutLine: {'line': b'writing entry points to ..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\entry_points.txt\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b'writing requirements to ..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\requires.txt\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b'writing top-level names to ..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\top_level.txt\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'running egg_info\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'writing ..\\..\\build\\sphero\\sphero.egg-info\\PKG-INFO\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'writing dependency_links to ..\\..\\build\\sphero\\sphero.egg-info\\dependency_links.txt\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'writing entry points to ..\\..\\build\\sphero\\sphero.egg-info\\entry_points.txt\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'writing requirements to ..\\..\\build\\sphero\\sphero.egg-info\\requires.txt\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b"reading manifest file '..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\SOURCES.txt'\r\n"}
+[3.000000] (sphero) StdoutLine: {'line': b'writing top-level names to ..\\..\\build\\sphero\\sphero.egg-info\\top_level.txt\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b"writing manifest file '..\\..\\..\\build\\irpublisher\\irpublisher.egg-info\\SOURCES.txt'\r\n"}
+[3.000000] (irpublisher) StdoutLine: {'line': b'running build\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b'running build_py\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b"reading manifest file '..\\..\\build\\sphero\\sphero.egg-info\\SOURCES.txt'\r\n"}
+[3.000000] (irpublisher) StdoutLine: {'line': b'running install\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\sphero\\sphero.egg-info\\SOURCES.txt'\r\n"}
+[3.000000] (sphero) StdoutLine: {'line': b'running build\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'running build_py\r\n'}
+[3.000000] (sphero) StdoutLine: {'line': b'copying sphero\\move.py -> C:\\mmi_ws\\ros2_ws\\build\\sphero\\build\\lib\\sphero\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b'running install_lib\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b'running install_data\r\n'}
+[3.000000] (irpublisher) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[3.016000] (irpublisher) StdoutLine: {'line': b"removing 'C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\Lib\\site-packages\\irpublisher-0.0.0-py3.8.egg-info' (and everything under it)\r\n"}
+[3.016000] (irpublisher) StdoutLine: {'line': b'Copying ..\\..\\..\\build\\irpublisher\\irpublisher.egg-info to C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\Lib\\site-packages\\irpublisher-0.0.0-py3.8.egg-info\r\n'}
+[3.016000] (irpublisher) StdoutLine: {'line': b'running install_scripts\r\n'}
+[3.032000] (irpublisher) StdoutLine: {'line': b'Installing publish-script.py script to C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\lib\\irpublisher\r\n'}
+[3.032000] (irpublisher) StdoutLine: {'line': b'Installing publish.exe script to C:\\mmi_ws\\ros2_ws\\install\\irpublisher\\lib\\irpublisher\r\n'}
+[3.032000] (irpublisher) StdoutLine: {'line': b"writing list of installed files to 'C:\\mmi_ws\\ros2_ws\\build\\irpublisher\\install.log'\r\n"}
+[3.032000] (irpublisher) StderrLine: {'line': b'c:\\python38\\lib\\site-packages\\setuptools\\command\\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\r\n'}
+[3.032000] (irpublisher) StderrLine: {'line': b'  warnings.warn(\r\n'}
+[3.047000] (irpublisher) CommandEnded: {'returncode': 0}
+[3.063000] (-) TimerEvent: {}
+[3.172000] (-) TimerEvent: {}
+[3.172000] (irpublisher) JobEnded: {'identifier': 'irpublisher', 'rc': 0}
+[3.204000] (test1) StdoutLine: {'line': b'running egg_info\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'writing ..\\..\\build\\test1\\test1.egg-info\\PKG-INFO\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'writing dependency_links to ..\\..\\build\\test1\\test1.egg-info\\dependency_links.txt\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'writing entry points to ..\\..\\build\\test1\\test1.egg-info\\entry_points.txt\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'writing requirements to ..\\..\\build\\test1\\test1.egg-info\\requires.txt\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'writing top-level names to ..\\..\\build\\test1\\test1.egg-info\\top_level.txt\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b"reading manifest file '..\\..\\build\\test1\\test1.egg-info\\SOURCES.txt'\r\n"}
+[3.204000] (test1) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\test1\\test1.egg-info\\SOURCES.txt'\r\n"}
+[3.204000] (test1) StdoutLine: {'line': b'running build\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'running build_py\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'running install\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'running install_lib\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'running install_data\r\n'}
+[3.204000] (test1) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[3.219000] (test1) StdoutLine: {'line': b"removing 'C:\\mmi_ws\\ros2_ws\\install\\test1\\Lib\\site-packages\\test1-0.0.0-py3.8.egg-info' (and everything under it)\r\n"}
+[3.219000] (test1) StdoutLine: {'line': b'Copying ..\\..\\build\\test1\\test1.egg-info to C:\\mmi_ws\\ros2_ws\\install\\test1\\Lib\\site-packages\\test1-0.0.0-py3.8.egg-info\r\n'}
+[3.219000] (test1) StdoutLine: {'line': b'running install_scripts\r\n'}
+[3.235000] (test1) StdoutLine: {'line': b'Installing simple_test-script.py script to C:\\mmi_ws\\ros2_ws\\install\\test1\\lib\\test1\r\n'}
+[3.235000] (test1) StdoutLine: {'line': b'Installing simple_test.exe script to C:\\mmi_ws\\ros2_ws\\install\\test1\\lib\\test1\r\n'}
+[3.235000] (test1) StdoutLine: {'line': b"writing list of installed files to 'C:\\mmi_ws\\ros2_ws\\build\\test1\\install.log'\r\n"}
+[3.235000] (test1) StderrLine: {'line': b'c:\\python38\\lib\\site-packages\\setuptools\\command\\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\r\n'}
+[3.235000] (test1) StderrLine: {'line': b'  warnings.warn(\r\n'}
+[3.250000] (test1) CommandEnded: {'returncode': 0}
+[3.282000] (-) TimerEvent: {}
+[3.360000] (test1) JobEnded: {'identifier': 'test1', 'rc': 0}
+[3.391000] (-) TimerEvent: {}
+[3.500000] (-) TimerEvent: {}
+[3.610000] (-) TimerEvent: {}
+[3.719000] (-) TimerEvent: {}
+[3.829000] (-) TimerEvent: {}
+[3.938000] (-) TimerEvent: {}
+[4.047000] (-) TimerEvent: {}
+[4.157000] (-) TimerEvent: {}
+[4.266000] (-) TimerEvent: {}
+[4.375000] (sphero) StdoutLine: {'line': b'running install\r\n'}
+[4.375000] (-) TimerEvent: {}
+[4.375000] (sphero) StdoutLine: {'line': b'running install_lib\r\n'}
+[4.375000] (sphero) StdoutLine: {'line': b'copying C:\\mmi_ws\\ros2_ws\\build\\sphero\\build\\lib\\sphero\\move.py -> C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages\\sphero\r\n'}
+[4.391000] (sphero) StdoutLine: {'line': b'byte-compiling C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages\\sphero\\move.py to move.cpython-38.pyc\r\n'}
+[4.391000] (sphero) StdoutLine: {'line': b'running install_data\r\n'}
+[4.391000] (sphero) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[4.391000] (sphero) StdoutLine: {'line': b"removing 'C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages\\sphero-0.0.0-py3.8.egg-info' (and everything under it)\r\n"}
+[4.391000] (sphero) StdoutLine: {'line': b'Copying ..\\..\\build\\sphero\\sphero.egg-info to C:\\mmi_ws\\ros2_ws\\install\\sphero\\Lib\\site-packages\\sphero-0.0.0-py3.8.egg-info\r\n'}
+[4.407000] (sphero) StdoutLine: {'line': b'running install_scripts\r\n'}
+[4.422000] (sphero) StdoutLine: {'line': b'Installing sphero-script.py script to C:\\mmi_ws\\ros2_ws\\install\\sphero\\lib\\sphero\r\n'}
+[4.422000] (sphero) StdoutLine: {'line': b'Installing sphero.exe script to C:\\mmi_ws\\ros2_ws\\install\\sphero\\lib\\sphero\r\n'}
+[4.422000] (sphero) StdoutLine: {'line': b"writing list of installed files to 'C:\\mmi_ws\\ros2_ws\\build\\sphero\\install.log'\r\n"}
+[4.422000] (sphero) StderrLine: {'line': b'c:\\python38\\lib\\site-packages\\setuptools\\command\\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\r\n'}
+[4.422000] (sphero) StderrLine: {'line': b'  warnings.warn(\r\n'}
+[4.438000] (sphero) CommandEnded: {'returncode': 0}
+[4.485000] (-) TimerEvent: {}
+[4.547000] (sphero) JobEnded: {'identifier': 'sphero', 'rc': 0}
+[4.547000] (-) EventReactorShutdown: {}

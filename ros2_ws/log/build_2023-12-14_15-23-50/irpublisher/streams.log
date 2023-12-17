@@ -1,0 +1,40 @@
+[2.234s] Invoking command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed
+[2.547s] running egg_info
+[2.547s] creating ..\..\..\build\irpublisher\irpublisher.egg-info
+[2.547s] writing ..\..\..\build\irpublisher\irpublisher.egg-info\PKG-INFO
+[2.547s] writing dependency_links to ..\..\..\build\irpublisher\irpublisher.egg-info\dependency_links.txt
+[2.547s] writing entry points to ..\..\..\build\irpublisher\irpublisher.egg-info\entry_points.txt
+[2.547s] writing requirements to ..\..\..\build\irpublisher\irpublisher.egg-info\requires.txt
+[2.547s] writing top-level names to ..\..\..\build\irpublisher\irpublisher.egg-info\top_level.txt
+[2.547s] writing manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[2.547s] reading manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[2.547s] writing manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[2.547s] running build
+[2.547s] running build_py
+[2.547s] creating C:\mmi_ws\ros2_ws\build\irpublisher\build
+[2.547s] creating C:\mmi_ws\ros2_ws\build\irpublisher\build\lib
+[2.547s] creating C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher
+[2.547s] copying irpublisher\testserial.py -> C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher
+[2.562s] copying irpublisher\__init__.py -> C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher
+[2.594s] running install
+[2.594s] running install_lib
+[2.594s] creating C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher
+[2.594s] copying C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher\testserial.py -> C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher
+[2.625s] copying C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher\__init__.py -> C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher
+[2.640s] byte-compiling C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher\testserial.py to testserial.cpython-38.pyc
+[2.672s] byte-compiling C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher\__init__.py to __init__.cpython-38.pyc
+[2.672s] running install_data
+[2.672s] creating C:\mmi_ws\ros2_ws\install\irpublisher\share\ament_index
+[2.672s] creating C:\mmi_ws\ros2_ws\install\irpublisher\share\ament_index\resource_index
+[2.672s] creating C:\mmi_ws\ros2_ws\install\irpublisher\share\ament_index\resource_index\packages
+[2.672s] copying resource\irpublisher -> C:\mmi_ws\ros2_ws\install\irpublisher\share\ament_index\resource_index\packages
+[2.687s] copying package.xml -> C:\mmi_ws\ros2_ws\install\irpublisher\share\irpublisher
+[2.687s] running install_egg_info
+[2.687s] Copying ..\..\..\build\irpublisher\irpublisher.egg-info to C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher-0.0.0-py3.8.egg-info
+[2.703s] running install_scripts
+[2.812s] Installing publish-script.py script to C:\mmi_ws\ros2_ws\install\irpublisher\lib\irpublisher
+[2.812s] Installing publish.exe script to C:\mmi_ws\ros2_ws\install\irpublisher\lib\irpublisher
+[2.812s] writing list of installed files to 'C:\mmi_ws\ros2_ws\build\irpublisher\install.log'
+[2.812s] c:\python38\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.812s]   warnings.warn(
+[2.828s] Invoked command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher' returned '0': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed

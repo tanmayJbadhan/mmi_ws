@@ -1,0 +1,27 @@
+[2.453s] Invoking command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed
+[2.781s] running egg_info
+[2.781s] writing ..\..\..\build\irpublisher\irpublisher.egg-info\PKG-INFO
+[2.781s] writing dependency_links to ..\..\..\build\irpublisher\irpublisher.egg-info\dependency_links.txt
+[2.781s] writing entry points to ..\..\..\build\irpublisher\irpublisher.egg-info\entry_points.txt
+[2.781s] writing requirements to ..\..\..\build\irpublisher\irpublisher.egg-info\requires.txt
+[2.781s] writing top-level names to ..\..\..\build\irpublisher\irpublisher.egg-info\top_level.txt
+[2.781s] reading manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[2.781s] writing manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[2.781s] running build
+[2.781s] running build_py
+[2.781s] copying irpublisher\testserial.py -> C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher
+[4.125s] running install
+[4.125s] running install_lib
+[4.125s] copying C:\mmi_ws\ros2_ws\build\irpublisher\build\lib\irpublisher\testserial.py -> C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher
+[4.141s] byte-compiling C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher\testserial.py to testserial.cpython-38.pyc
+[4.141s] running install_data
+[4.141s] running install_egg_info
+[4.156s] removing 'C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher-0.0.0-py3.8.egg-info' (and everything under it)
+[4.156s] Copying ..\..\..\build\irpublisher\irpublisher.egg-info to C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher-0.0.0-py3.8.egg-info
+[4.156s] running install_scripts
+[4.172s] Installing publish-script.py script to C:\mmi_ws\ros2_ws\install\irpublisher\lib\irpublisher
+[4.172s] Installing publish.exe script to C:\mmi_ws\ros2_ws\install\irpublisher\lib\irpublisher
+[4.172s] writing list of installed files to 'C:\mmi_ws\ros2_ws\build\irpublisher\install.log'
+[4.172s] c:\python38\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.172s]   warnings.warn(
+[4.188s] Invoked command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher' returned '0': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed

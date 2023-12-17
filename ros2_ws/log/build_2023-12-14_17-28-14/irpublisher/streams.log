@@ -1,0 +1,24 @@
+[1.328s] Invoking command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages; c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed
+[1.547s] running egg_info
+[1.547s] writing ..\..\..\build\irpublisher\irpublisher.egg-info\PKG-INFO
+[1.547s] writing dependency_links to ..\..\..\build\irpublisher\irpublisher.egg-info\dependency_links.txt
+[1.562s] writing entry points to ..\..\..\build\irpublisher\irpublisher.egg-info\entry_points.txt
+[1.562s] writing requirements to ..\..\..\build\irpublisher\irpublisher.egg-info\requires.txt
+[1.562s] writing top-level names to ..\..\..\build\irpublisher\irpublisher.egg-info\top_level.txt
+[1.562s] reading manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[1.562s] writing manifest file '..\..\..\build\irpublisher\irpublisher.egg-info\SOURCES.txt'
+[1.562s] running build
+[1.562s] running build_py
+[1.562s] running install
+[1.562s] running install_lib
+[1.562s] running install_data
+[1.562s] running install_egg_info
+[1.562s] removing 'C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher-0.0.0-py3.8.egg-info' (and everything under it)
+[1.562s] Copying ..\..\..\build\irpublisher\irpublisher.egg-info to C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages\irpublisher-0.0.0-py3.8.egg-info
+[1.578s] running install_scripts
+[1.594s] Installing publish-script.py script to C:\mmi_ws\ros2_ws\install\irpublisher\lib\irpublisher
+[1.594s] Installing publish.exe script to C:\mmi_ws\ros2_ws\install\irpublisher\lib\irpublisher
+[1.594s] writing list of installed files to 'C:\mmi_ws\ros2_ws\build\irpublisher\install.log'
+[1.594s] c:\python38\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.594s]   warnings.warn(
+[1.609s] Invoked command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher' returned '0': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages; c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed

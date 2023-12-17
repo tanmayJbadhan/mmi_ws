@@ -1,0 +1,6 @@
+source;share\irpublisher\hook\pythonpath.ps1
+source;share\irpublisher\hook\pythonpath.bat
+source;share\irpublisher\hook\pythonpath.dsv
+source;share\irpublisher\hook\ament_prefix_path.ps1
+source;share\irpublisher\hook\ament_prefix_path.bat
+source;share\irpublisher\hook\ament_prefix_path.dsv

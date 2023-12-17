@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/irpublisher/irpublisher.egg-info/PKG-INFO
+../../../build/irpublisher/irpublisher.egg-info/SOURCES.txt
+../../../build/irpublisher/irpublisher.egg-info/dependency_links.txt
+../../../build/irpublisher/irpublisher.egg-info/entry_points.txt
+../../../build/irpublisher/irpublisher.egg-info/requires.txt
+../../../build/irpublisher/irpublisher.egg-info/top_level.txt
+../../../build/irpublisher/irpublisher.egg-info/zip-safe
+irpublisher/__init__.py
+irpublisher/testserial.py
+resource/irpublisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

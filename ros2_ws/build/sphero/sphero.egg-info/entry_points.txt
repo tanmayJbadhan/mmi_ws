@@ -1,0 +1,3 @@
+[console_scripts]
+sphero = sphero.move:main
+

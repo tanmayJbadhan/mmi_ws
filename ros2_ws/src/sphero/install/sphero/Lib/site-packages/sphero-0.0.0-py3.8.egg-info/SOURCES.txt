@@ -1,0 +1,19 @@
+package.xml
+setup.cfg
+setup.py
+build/sphero/sphero.egg-info/PKG-INFO
+build/sphero/sphero.egg-info/SOURCES.txt
+build/sphero/sphero.egg-info/dependency_links.txt
+build/sphero/sphero.egg-info/entry_points.txt
+build/sphero/sphero.egg-info/requires.txt
+build/sphero/sphero.egg-info/top_level.txt
+build/sphero/sphero.egg-info/zip-safe
+resource/sphero
+sphero/__init__.py
+sphero/import os.py
+sphero/move.py
+sphero/spheroapi.py
+sphero/testserial.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

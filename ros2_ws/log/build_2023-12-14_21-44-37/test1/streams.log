@@ -1,0 +1,24 @@
+[2.282s] Invoking command in 'C:\mmi_ws\ros2_ws\src\test1': PYTHONPATH=C:\mmi_ws\ros2_ws\build\test1\prefix_override;C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\test1 build --build-base C:\mmi_ws\ros2_ws\build\test1\build install --record C:\mmi_ws\ros2_ws\build\test1\install.log --single-version-externally-managed
+[2.672s] running egg_info
+[2.672s] writing ..\..\build\test1\test1.egg-info\PKG-INFO
+[2.672s] writing dependency_links to ..\..\build\test1\test1.egg-info\dependency_links.txt
+[2.672s] writing entry points to ..\..\build\test1\test1.egg-info\entry_points.txt
+[2.672s] writing requirements to ..\..\build\test1\test1.egg-info\requires.txt
+[2.672s] writing top-level names to ..\..\build\test1\test1.egg-info\top_level.txt
+[2.672s] reading manifest file '..\..\build\test1\test1.egg-info\SOURCES.txt'
+[2.672s] writing manifest file '..\..\build\test1\test1.egg-info\SOURCES.txt'
+[2.672s] running build
+[2.672s] running build_py
+[2.672s] running install
+[2.672s] running install_lib
+[2.672s] running install_data
+[2.672s] running install_egg_info
+[2.672s] removing 'C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages\test1-0.0.0-py3.8.egg-info' (and everything under it)
+[2.672s] Copying ..\..\build\test1\test1.egg-info to C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages\test1-0.0.0-py3.8.egg-info
+[2.672s] running install_scripts
+[2.672s] Installing simple_test-script.py script to C:\mmi_ws\ros2_ws\install\test1\lib\test1
+[2.766s] Installing simple_test.exe script to C:\mmi_ws\ros2_ws\install\test1\lib\test1
+[2.766s] writing list of installed files to 'C:\mmi_ws\ros2_ws\build\test1\install.log'
+[2.766s] c:\python38\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.766s]   warnings.warn(
+[2.766s] Invoked command in 'C:\mmi_ws\ros2_ws\src\test1' returned '0': PYTHONPATH=C:\mmi_ws\ros2_ws\build\test1\prefix_override;C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\test1 build --build-base C:\mmi_ws\ros2_ws\build\test1\build install --record C:\mmi_ws\ros2_ws\build\test1\install.log --single-version-externally-managed

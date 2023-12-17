@@ -1,0 +1,44 @@
+running egg_info
+creating build\sphero\sphero.egg-info
+writing build\sphero\sphero.egg-info\PKG-INFO
+writing dependency_links to build\sphero\sphero.egg-info\dependency_links.txt
+writing entry points to build\sphero\sphero.egg-info\entry_points.txt
+writing requirements to build\sphero\sphero.egg-info\requires.txt
+writing top-level names to build\sphero\sphero.egg-info\top_level.txt
+writing manifest file 'build\sphero\sphero.egg-info\SOURCES.txt'
+reading manifest file 'build\sphero\sphero.egg-info\SOURCES.txt'
+writing manifest file 'build\sphero\sphero.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build
+creating C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib
+creating C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero
+copying sphero\import os.py -> C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero
+copying sphero\move.py -> C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero
+copying sphero\spheroapi.py -> C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero
+copying sphero\__init__.py -> C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero
+running install
+running install_lib
+creating C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero
+copying C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero\import os.py -> C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero
+copying C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero\move.py -> C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero
+copying C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero\spheroapi.py -> C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero
+copying C:\mmi_ws\ros2_ws\src\sphero\build\sphero\build\lib\sphero\__init__.py -> C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero
+byte-compiling C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero\import os.py to import os.cpython-38.pyc
+byte-compiling C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero\move.py to move.cpython-38.pyc
+byte-compiling C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero\spheroapi.py to spheroapi.cpython-38.pyc
+byte-compiling C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero\__init__.py to __init__.cpython-38.pyc
+running install_data
+creating C:\mmi_ws\ros2_ws\src\sphero\install\sphero\share\ament_index
+creating C:\mmi_ws\ros2_ws\src\sphero\install\sphero\share\ament_index\resource_index
+creating C:\mmi_ws\ros2_ws\src\sphero\install\sphero\share\ament_index\resource_index\packages
+copying resource\sphero -> C:\mmi_ws\ros2_ws\src\sphero\install\sphero\share\ament_index\resource_index\packages
+copying package.xml -> C:\mmi_ws\ros2_ws\src\sphero\install\sphero\share\sphero
+running install_egg_info
+Copying build\sphero\sphero.egg-info to C:\mmi_ws\ros2_ws\src\sphero\install\sphero\Lib\site-packages\sphero-0.0.0-py3.8.egg-info
+running install_scripts
+Installing sphero-script.py script to C:\mmi_ws\ros2_ws\src\sphero\install\sphero\lib\sphero
+Installing sphero.exe script to C:\mmi_ws\ros2_ws\src\sphero\install\sphero\lib\sphero
+writing list of installed files to 'C:\mmi_ws\ros2_ws\src\sphero\build\sphero\install.log'
+c:\python38\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

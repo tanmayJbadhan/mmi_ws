@@ -1,0 +1,36 @@
+running egg_info
+creating ..\build\test1\test1.egg-info
+writing ..\build\test1\test1.egg-info\PKG-INFO
+writing dependency_links to ..\build\test1\test1.egg-info\dependency_links.txt
+writing entry points to ..\build\test1\test1.egg-info\entry_points.txt
+writing requirements to ..\build\test1\test1.egg-info\requires.txt
+writing top-level names to ..\build\test1\test1.egg-info\top_level.txt
+writing manifest file '..\build\test1\test1.egg-info\SOURCES.txt'
+reading manifest file '..\build\test1\test1.egg-info\SOURCES.txt'
+writing manifest file '..\build\test1\test1.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\mmi_ws\ros2_ws\src\build\test1\build
+creating C:\mmi_ws\ros2_ws\src\build\test1\build\lib
+creating C:\mmi_ws\ros2_ws\src\build\test1\build\lib\test1
+copying test1\test1.py -> C:\mmi_ws\ros2_ws\src\build\test1\build\lib\test1
+copying test1\__init__.py -> C:\mmi_ws\ros2_ws\src\build\test1\build\lib\test1
+running install
+running install_lib
+creating C:\mmi_ws\ros2_ws\src\install\test1\Lib\site-packages\test1
+copying C:\mmi_ws\ros2_ws\src\build\test1\build\lib\test1\test1.py -> C:\mmi_ws\ros2_ws\src\install\test1\Lib\site-packages\test1
+copying C:\mmi_ws\ros2_ws\src\build\test1\build\lib\test1\__init__.py -> C:\mmi_ws\ros2_ws\src\install\test1\Lib\site-packages\test1
+byte-compiling C:\mmi_ws\ros2_ws\src\install\test1\Lib\site-packages\test1\test1.py to test1.cpython-38.pyc
+byte-compiling C:\mmi_ws\ros2_ws\src\install\test1\Lib\site-packages\test1\__init__.py to __init__.cpython-38.pyc
+running install_data
+creating C:\mmi_ws\ros2_ws\src\install\test1\share\ament_index
+creating C:\mmi_ws\ros2_ws\src\install\test1\share\ament_index\resource_index
+creating C:\mmi_ws\ros2_ws\src\install\test1\share\ament_index\resource_index\packages
+copying resource\test1 -> C:\mmi_ws\ros2_ws\src\install\test1\share\ament_index\resource_index\packages
+copying package.xml -> C:\mmi_ws\ros2_ws\src\install\test1\share\test1
+running install_egg_info
+Copying ..\build\test1\test1.egg-info to C:\mmi_ws\ros2_ws\src\install\test1\Lib\site-packages\test1-0.0.0-py3.8.egg-info
+running install_scripts
+Installing simple_test-script.py script to C:\mmi_ws\ros2_ws\src\install\test1\lib\test1
+Installing simple_test.exe script to C:\mmi_ws\ros2_ws\src\install\test1\lib\test1
+writing list of installed files to 'C:\mmi_ws\ros2_ws\src\build\test1\install.log'

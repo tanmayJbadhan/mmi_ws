@@ -1,0 +1,23 @@
+[2.313s] Invoking command in 'C:\mmi_ws\ros2_ws\src\test1': PYTHONPATH=C:\mmi_ws\ros2_ws\build\test1\prefix_override;C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\test1 build --build-base C:\mmi_ws\ros2_ws\build\test1\build install --record C:\mmi_ws\ros2_ws\build\test1\install.log --single-version-externally-managed
+[2.625s] running egg_info
+[2.625s] writing ..\..\build\test1\test1.egg-info\PKG-INFO
+[2.625s] writing dependency_links to ..\..\build\test1\test1.egg-info\dependency_links.txt
+[2.625s] writing entry points to ..\..\build\test1\test1.egg-info\entry_points.txt
+[2.625s] writing requirements to ..\..\build\test1\test1.egg-info\requires.txt
+[2.625s] writing top-level names to ..\..\build\test1\test1.egg-info\top_level.txt
+[2.625s] reading manifest file '..\..\build\test1\test1.egg-info\SOURCES.txt'
+[2.625s] writing manifest file '..\..\build\test1\test1.egg-info\SOURCES.txt'
+[2.625s] running build
+[2.625s] running build_py
+[2.625s] running install
+[2.625s] running install_lib
+[2.641s] running install_data
+[2.641s] running install_egg_info
+[2.641s] removing 'C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages\test1-0.0.0-py3.8.egg-info' (and everything under it)
+[2.641s] Copying ..\..\build\test1\test1.egg-info to C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages\test1-0.0.0-py3.8.egg-info
+[2.641s] running install_scripts
+[2.657s] Installing simple_test-script.py script to C:\mmi_ws\ros2_ws\install\test1\lib\test1
+[2.657s] Installing simple_test.exe script to C:\mmi_ws\ros2_ws\install\test1\lib\test1
+[2.657s] writing list of installed files to 'C:\mmi_ws\ros2_ws\build\test1\install.log'
+[2.657s] c:\python38\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.657s]   warnings.warn(

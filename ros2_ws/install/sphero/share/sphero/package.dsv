@@ -1,0 +1,6 @@
+source;share\sphero\hook\pythonpath.ps1
+source;share\sphero\hook\pythonpath.bat
+source;share\sphero\hook\pythonpath.dsv
+source;share\sphero\hook\ament_prefix_path.ps1
+source;share\sphero\hook\ament_prefix_path.bat
+source;share\sphero\hook\ament_prefix_path.dsv

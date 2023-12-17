@@ -1,0 +1,183 @@
+[0.527s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\Python38\\Scripts\\colcon', 'build'][0m
+[0.527s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000001FECE1E51F0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000001FECE1E51F0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000001FECE6A1CA0>)[0m
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.611s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\mmi_ws\ros2_ws'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\build) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\build) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\build) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\install) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\install) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\install) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'ignore_ament_install'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extensions ['colcon_pkg']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'colcon_pkg'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extensions ['colcon_meta']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'colcon_meta'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extensions ['ros']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'ros'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extensions ['cmake', 'python']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'cmake'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'python'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extensions ['python_setup_py']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher) by extension 'python_setup_py'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\build) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\build) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\build) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\install) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\install) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\install) ignored
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extension 'ignore'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extension 'ignore_ament_install'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extensions ['colcon_pkg']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extension 'colcon_pkg'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extensions ['colcon_meta']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extension 'colcon_meta'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extensions ['ros']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\irpublisher) by extension 'ros'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\irpublisher\irpublisher' with type 'ros.ament_python' and name 'irpublisher'[0m
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\log) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\log) by extension 'ignore'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\irpublisher\log) ignored
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\log) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\log) by extension 'ignore'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\log) ignored
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extension 'ignore'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extension 'ignore_ament_install'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extensions ['colcon_pkg']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extension 'colcon_pkg'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extensions ['colcon_meta']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extension 'colcon_meta'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extensions ['ros']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\sphero) by extension 'ros'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\sphero' with type 'ros.ament_python' and name 'sphero'[0m
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extension 'ignore'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extension 'ignore_ament_install'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extensions ['colcon_pkg']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extension 'colcon_pkg'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extensions ['colcon_meta']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extension 'colcon_meta'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extensions ['ros']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\test1) by extension 'ros'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\test1' with type 'ros.ament_python' and name 'test1'[0m
+[0.630s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.630s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.630s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.630s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.630s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'cmake_args' from command line to 'None'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'cmake_target' from command line to 'None'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'irpublisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.769s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'irpublisher' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\mmi_ws\\ros2_ws\\build\\irpublisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\mmi_ws\\ros2_ws\\install\\irpublisher', 'merge_install': False, 'path': 'C:\\mmi_ws\\ros2_ws\\src\\irpublisher\\irpublisher', 'symlink_install': False, 'test_result_base': None}[0m
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'cmake_args' from command line to 'None'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'cmake_target' from command line to 'None'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'cmake_clean_cache' from command line to 'False'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'cmake_clean_first' from command line to 'False'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'cmake_force_configure' from command line to 'False'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'ament_cmake_args' from command line to 'None'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'catkin_cmake_args' from command line to 'None'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sphero' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.800s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'sphero' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\mmi_ws\\ros2_ws\\build\\sphero', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\mmi_ws\\ros2_ws\\install\\sphero', 'merge_install': False, 'path': 'C:\\mmi_ws\\ros2_ws\\src\\sphero', 'symlink_install': False, 'test_result_base': None}[0m
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'cmake_args' from command line to 'None'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'cmake_target' from command line to 'None'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'cmake_clean_first' from command line to 'False'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'cmake_force_configure' from command line to 'False'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'ament_cmake_args' from command line to 'None'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.830s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'test1' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\mmi_ws\\ros2_ws\\build\\test1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\mmi_ws\\ros2_ws\\install\\test1', 'merge_install': False, 'path': 'C:\\mmi_ws\\ros2_ws\\src\\test1', 'symlink_install': False, 'test_result_base': None}[0m
+[0.866s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.897s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.897s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher' with build type 'ament_python'
+[0.897s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('irpublisher', 'ament_prefix_path')
+[0.932s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[0.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\mmi_ws\ros2_ws\install\irpublisher\share\irpublisher\hook\ament_prefix_path.ps1'
+[0.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\mmi_ws\ros2_ws\install\irpublisher\share\irpublisher\hook\ament_prefix_path.bat'
+[0.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\mmi_ws\ros2_ws\install\irpublisher\share\irpublisher\hook\ament_prefix_path.dsv'
+[1.093s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\mmi_ws\ros2_ws\src\sphero' with build type 'ament_python'
+[1.093s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sphero', 'ament_prefix_path')
+[1.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\mmi_ws\ros2_ws\install\sphero\share\sphero\hook\ament_prefix_path.ps1'
+[1.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\mmi_ws\ros2_ws\install\sphero\share\sphero\hook\ament_prefix_path.bat'
+[1.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\mmi_ws\ros2_ws\install\sphero\share\sphero\hook\ament_prefix_path.dsv'
+[1.293s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\mmi_ws\ros2_ws\src\test1' with build type 'ament_python'
+[1.293s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('test1', 'ament_prefix_path')
+[1.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\mmi_ws\ros2_ws\install\test1\share\test1\hook\ament_prefix_path.ps1'
+[1.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\mmi_ws\ros2_ws\install\test1\share\test1\hook\ament_prefix_path.bat'
+[1.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\mmi_ws\ros2_ws\install\test1\share\test1\hook\ament_prefix_path.dsv'
+[1.804s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher'
+[2.278s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\mmi_ws\ros2_ws\src\sphero'
+[2.763s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\mmi_ws\ros2_ws\src\test1'
+[3.398s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\mmi_ws\ros2_ws\src\sphero': PYTHONPATH=C:\mmi_ws\ros2_ws\build\sphero\prefix_override;C:\mmi_ws\ros2_ws\install\sphero\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\sphero build --build-base C:\mmi_ws\ros2_ws\build\sphero\build install --record C:\mmi_ws\ros2_ws\build\sphero\install.log --single-version-externally-managed[0m
+[3.404s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed[0m
+[3.574s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\mmi_ws\ros2_ws\src\test1': PYTHONPATH=C:\mmi_ws\ros2_ws\build\test1\prefix_override;C:\mmi_ws\ros2_ws\install\test1\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\test1 build --build-base C:\mmi_ws\ros2_ws\build\test1\build install --record C:\mmi_ws\ros2_ws\build\test1\install.log --single-version-externally-managed[0m
+[3.781s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\mmi_ws\ros2_ws\src\irpublisher\irpublisher' returned '1': PYTHONPATH=C:\mmi_ws\ros2_ws\build\irpublisher\prefix_override;C:\mmi_ws\ros2_ws\install\irpublisher\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\build\irpublisher build --build-base C:\mmi_ws\ros2_ws\build\irpublisher\build install --record C:\mmi_ws\ros2_ws\build\irpublisher\install.log --single-version-externally-managed[0m
+[3.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[3.956s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.992s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[3.992s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[3.992s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.992s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[9.015s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[9.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\mmi_ws\ros2_ws\install\local_setup.ps1'
+[9.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\mmi_ws\ros2_ws\install\_local_setup_util_ps1.py'
+[9.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\mmi_ws\ros2_ws\install\setup.ps1'
+[9.130s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\mmi_ws\ros2_ws\install\local_setup.bat'
+[9.130s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\mmi_ws\ros2_ws\install\_local_setup_util_bat.py'
+[9.130s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\mmi_ws\ros2_ws\install\setup.bat'
