@@ -15,4 +15,5 @@ The Publisher-Subscriber Model:
 Mouse Pointer Control Model:  
 1. A Ros2 package is srripted to map the IMU orientation values of ROLL, PITCH to the mouse pointer.
 2. To simulate left and right click different orientaion patterns are defined and a classifer is used to predict the action.
+3. The interrupt handling in this implementaion has errors so the demo for (2) is not recorded. 
 
